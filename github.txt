@@ -1,0 +1,9 @@
+Acciones mas complejas de github 
+
+MERGE 
+1. You must be on master branch
+2. git merge header.
+3. git pull & push. 
+
+MISTAKES AND HOW TO SOLVE
+
