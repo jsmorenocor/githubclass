@@ -13,7 +13,7 @@ CONFIGURATION OF GIT
 
 - git config --list : show the actual configuration.
 - git config --global : it lets me change a global configuration 
-  ex:
+  ex:config --global user.email "more@gmail.com"
 
 GIT BASIC OPERATIONS
 
@@ -31,3 +31,18 @@ CONECTING GIT and GITHUB
 2. verify the link: git remote -v
 3. from git you must pull the documents: git pull (newname A) (newname HEAD) 
 4. Dont forget to put --allow-unrelated-histories to force the merge.
+
+CREATING A PRIVATE KEY SSH
+note: This is my private key, dont share with no body.
+
+1.Verify that your email is the same in git as it is in GITHUB.
+ if no, change it with git config --global user.email
+2.Create a ssh key write it on GITBASH:
+  ssh-keygen -t rsa -b 4096 -C "email"
+3. id_rsa.pub is the public key that i can share. 
+4. Verify that the program that links the keys is working fine: 
+In GITBASH put: $ eval $(ssh-agent -s), it must show you a answer like 2226. 
+5. Tell the sistem to add the private key. 
+In GITBASH put: ssh-add /c/Users/Acer/.ssh/id_rsa
+the right answer is: Identity added
+6. 
