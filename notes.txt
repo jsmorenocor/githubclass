@@ -1,0 +1,33 @@
+                                   NOTES OF GIT
+BASIC NAVEGATION COMANDS:
+
+-pwd: shows me where am I. 
+-cat: Show the content of a file
+-cd: change library
+-ls: show files that are in the folder
+-git status: it tells the actual startus of the library 
+-git log (name): show the history of the folder.
+-git show (name): show detaild history of file.
+
+CONFIGURATION OF GIT
+
+- git config --list : show the actual configuration.
+- git config --global : it lets me change a global configuration 
+  ex:
+
+GIT BASIC OPERATIONS
+
+-commit -m "" : it creates nodes that have weird names like A22ddc34vedefv4.
+-git diff (weird name) (weird name) : it compares both files.
+-git reset (name) (hard/soft) : this comand deletes the comits and puts the HEAD on the selected node.
+-git checkout (name) : It puts HEAD on a desire comit
+-git checkout (name) (file) : It return some file to an old version.
+-git switch -c (newname): it creates a new branch from an old comit, use after checkout.
+
+
+CONECTING GIT and GITHUB
+
+1. create the link: git remote add (new name A) (https repository link)
+2. verify the link: git remote -v
+3. from git you must pull the documents: git pull (newname A) (newname HEAD) 
+4. Dont forget to put --allow-unrelated-histories to force the merge.
