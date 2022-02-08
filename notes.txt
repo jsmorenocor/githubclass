@@ -45,4 +45,8 @@ In GITBASH put: $ eval $(ssh-agent -s), it must show you a answer like 2226.
 5. Tell the sistem to add the private key. 
 In GITBASH put: ssh-add /c/Users/Acer/.ssh/id_rsa
 the right answer is: Identity added
-6. 
+6. Go to GITHUB and add the public KEY on configuracion. 
+
+NOTE: Each computer mush have ther own private KEY. 
+7. Change your remote link. 
+   In GITBASH you must put git remote set-url origin (URL from HITHUB SSH)
