@@ -8,7 +8,9 @@ BASIC NAVEGATION COMANDS:
 -git status: it tells the actual startus of the library 
 -git log (name): show the history of the folder.
 -git show (name): show detaild history of file.
-
+-git log --all --graph : show a detail history. 
+-git log --all --graph --decorate --oneline : show a detail history compresed.
+-SHORTCUT: alias name= (comand) ex: alias arbolito git log --all --graph --decorate --oneline 
 CONFIGURATION OF GIT
 
 - git config --list : show the actual configuration.
