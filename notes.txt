@@ -23,8 +23,8 @@ GIT BASIC OPERATIONS
 -git checkout (name) : It puts HEAD on a desire comit
 -git checkout (name) (file) : It return some file to an old version.
 -git switch -c (newname): it creates a new branch from an old comit, use after checkout.
-
-
+-git pull origin (HEAD(rama con la que se va a fusionar))
+-git push origin (HEAD (Rama a la que voy a adjuntar))
 CONECTING GIT and GITHUB
 
 1. create the link: git remote add (new name A) (https repository link)
