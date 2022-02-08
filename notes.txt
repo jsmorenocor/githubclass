@@ -5,6 +5,7 @@ BASIC NAVEGATION COMANDS:
 -cat: Show the content of a file
 -cd: change library
 -ls: show files that are in the folder
+-git restore --staged
 -git status: it tells the actual startus of the library 
 -git log (name): show the history of the folder.
 -git show (name): show detaild history of file.
@@ -12,7 +13,7 @@ BASIC NAVEGATION COMANDS:
 -git log --all --graph --decorate --oneline : show a detail history compresed.
 -SHORTCUT: alias name= (comand) ex: "alias arbolito git log --all --graph --decorate --oneline" 
 CONFIGURATION OF GIT
-
+- gitk Shows a graphic help for branch stories
 - git config --list : show the actual configuration.
 - git config --global : it lets me change a global configuration 
   ex:config --global user.email "more@gmail.com"
@@ -26,8 +27,9 @@ GIT BASIC OPERATIONS
 -git checkout (name) (file) : It return some file to an old version.
 -git switch -c (newname): it creates a new branch from an old comit, use after checkout.
 -git pull origin (HEAD(rama con la que se va a fusionar))
--git push origin (HEAD (Rama a la que voy a adjuntar))
+-git push origin (HEAD (la Rama que voy a enviar))
 CONECTING GIT and GITHUB
+-git clone (url) : it allow to clone a repository from web
 
 1. create the link: git remote add (new name A) (https repository link)
 2. verify the link: git remote -v
