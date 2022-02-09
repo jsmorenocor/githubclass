@@ -7,3 +7,15 @@ MERGE
 
 MISTAKES AND HOW TO SOLVE
 
+GIT STASH
+Wen you modifi your file and you dont want to save this know. 
+you can reverse it:
+1. git stash    
+2. git stash list
+3. git stash pop 
+4. git stash drop (IT DELETS)
+
+DELETE FILES RECENTLY CREATED
+
+1. git clean --dry-run 
+2. git clean -f
