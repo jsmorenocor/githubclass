@@ -8,6 +8,7 @@ BASIC NAVEGATION COMANDS:
 -git restore --staged
 -git status: it tells the actual startus of the library 
 -git log (name): show the history of the folder.
+-git log --oneline 
 -git show (name): show detaild history of file.
 -git log --all --graph : show a detail history. 
 -git log --all --graph --decorate --oneline : show a detail history compresed.
@@ -22,7 +23,7 @@ GIT BASIC OPERATIONS
 -git diff: it alows me to see the diference between two files.
 -commit -m "" : it creates nodes that have weird names like A22ddc34vedefv4.
 commit -am "" : it creates nodes for all the files.
--git diff (weird name) (weird name) : it compares both files.
+-git diff (weird namremotee) (weird name) : it compares both files.
 -git reset (name) (hard/soft) : this comand deletes the comits and puts the HEAD on the selected node.
 -git checkout (name) : It puts HEAD on a desire comit
 -git checkout (name) (file) : It return some file to an old version.
